@@ -1,0 +1,127 @@
+
+
+:root{
+  --bg-main-color:#3A497B;
+  --text-active-color:#0099CC;
+  --main-font: "Metal", serif;
+  --brand-font:"Nerko One", serif;
+  --black-color:#272B30;
+}
+  body{
+    background: url(./wraper.png) no-repeat center top,
+    linear-gradient(to bottom , #272B30 ,#272B30 );
+    background-size: 100% 24%;
+    background-position: top;
+    height: 100vh;
+  }
+  .header{
+   margin-top: 10%;
+   background-color: var(--bg-main-color);
+  
+  }
+  .header a{
+    color: #fff;
+    font-family: var(--main-font);
+  }
+  .nav-item a {
+    font-size: 12.25px;
+    font-weight: 400;
+    font-family: var(--main-font);
+  }
+  .brand{
+    font-family: var(--main-font);
+    /* font-size: 20px; */
+    font-weight: 500;
+     color: #fff;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--text-active-color);
+}
+
+.navbar-nav {
+
+  --bs-nav-link-hover-color: var(--text-active-color);
+
+}
+.cardBtn{
+   background-color: #0D6EFD;
+   color: #fff;
+}
+.footer span{
+  background-color:  #32383E;
+  font-size: 10.5px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  text-transform: uppercase;
+ 
+}
+.card-title span{
+  font-family: var(--brand-font);
+  font-size: 12px;
+  font-weight: 700;
+}
+.card{
+  background-color: transparent;
+}
+.card p{
+  font-weight: 400;
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: rgb(173, 167, 167) ;
+}
+.title h5{
+   font-size: 14px;
+  font-family: var(--brand-font);
+  font-weight: 500;
+}
+.title span{
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--bg-main-color);
+  font-size: 12px;
+}
+.details span{
+  background-color: #0099CC;
+  border-radius: 7px;
+  padding: 5px;
+  color: #000;
+   display: inline-block;
+   margin: 10px;
+   font-size: 13px;
+
+}
+.details p,.details button{
+  margin-top: 10px;
+  font-family: var(--main-font);
+}
+.details{
+  background-color: var(--black-color);
+}
+.fa-xmark{
+   font-size: 30px;
+   padding: 7px;
+ 
+  
+}
+.exitIcon:hover{
+  border: 2px solid   rgb(226, 211, 211);
+  
+}
+.detailContain h5,.detailContain h6{
+   font-size: 18px;
+   text-transform: capitalize;
+}
+.detailTitle{
+  font-family: var(--main-font);
+}
+.gamecard{
+  transition: all .5s;
+}
+.gamecard:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+ .details  .col-md-8  h5  span{
+  font-size: 18px;
+  
+}
